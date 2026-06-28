@@ -1,0 +1,62 @@
+/* Desktop: schedule col is inside section with 40px padding-top, so offset = navbar(56) + padding(40) */
+.sched__anchor {
+  scroll-margin-top: 96px;
+}
+
+/* Mobile: columns stack, schedule sits naturally in flow — only navbar offset needed */
+@media (max-width: 640px) {
+  .sched__anchor {
+    scroll-margin-top: 56px;
+  }
+}
+
+.about__body {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.7;
+}
+
+.about__date {
+  font-size: 12px;
+  color: var(--text3);
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+
+
+/* Schedule rows */
+.sched__row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 9px 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sched__row:last-child {
+  border-bottom: none;
+}
+
+.sched__row--muted .sched__label {
+  color: var(--text3);
+}
+
+.sched__row--active .sched__label {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.sched__time {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  color: var(--text3);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.sched__label {
+  font-size: 13px;
+  color: var(--text);
+}

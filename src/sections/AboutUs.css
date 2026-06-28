@@ -1,0 +1,141 @@
+.aus__heading {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.aus__sub {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.65;
+  max-width: 520px;
+  margin-bottom: 32px;
+}
+
+.aus__random-note {
+  font-size: 11px;
+  color: var(--text3);
+  margin-top: -20px;
+  margin-bottom: 28px;
+  font-style: italic;
+}
+
+/* Groups */
+.aus__groups {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.aus__group {}
+
+.aus__group-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* Cards grid — auto-fills columns, wraps on small screens */
+.aus__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+
+/* Individual card */
+.aus__card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  transition: border-color 0.2s, transform 0.15s;
+}
+
+.aus__card:hover {
+  border-color: rgba(123,111,232,0.4);
+  transform: translateY(-1px);
+}
+
+/* Avatar circle with gradient */
+.aus__avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7B6FE8, #00E5CC);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.aus__avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.aus__info {
+  min-width: 0;
+}
+
+.aus__github-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6px;
+  color: var(--text3);
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+
+.aus__github-icon:hover {
+  color: var(--text);
+}
+
+
+.aus__name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+}
+
+.aus__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--cyan);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.aus__link:hover,
+.aus__link:hover .aus__platform-icon {
+  color: #fff;
+}
+
+.aus__platform-icon {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text3);
+  transition: color 0.2s;
+}

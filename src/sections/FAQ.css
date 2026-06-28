@@ -1,0 +1,53 @@
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 100%;
+}
+
+.faq__item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.faq__item--open {
+  border-color: rgba(0,229,204,0.3);
+}
+
+.faq__q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  text-align: left;
+  gap: 12px;
+}
+
+.faq__q:hover { color: var(--cyan); }
+
+.faq__chevron {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--text3);
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.faq__a {
+  padding: 0 16px 14px;
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.7;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
