@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="container">
         <div className="hero__pill">
           <span className="hero__dot" />
-          NEDA · {EVENT.year} · For DSD students
+          NEDA · {EVENT.year} · For those new to EDA
         </div>
 
         <h1 className="hero__title">{EVENT.tagline}</h1>

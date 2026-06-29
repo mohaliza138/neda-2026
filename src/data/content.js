@@ -5,7 +5,7 @@ export const EVENT = {
   tagline: 'From HDL to Silicon',
   subtitle: 'The complete EDA flow — step by step',
   description:
-    'An online event for DSD students taking their first steps in Electronic Design Automation — two days of workshops followed by a week-long competition.',
+    'An online event for anyone taking their first steps in Electronic Design Automation — two days of workshops followed by a week-long competition.',
   date: 'Jul. 2-10 · 2026',
   portalUrl: '',
   discordUrl: '',
@@ -36,7 +36,7 @@ export const SCHEDULE = [
 export const WORKSHOPS = [
   {
     id: 1,
-    title: 'Workshop 1 - About NEDA',
+    title: 'About NEDA',
     status: 'soon',
     resources: [
       // { icon: 'icon', label: 'label', url: '#', type: 'Download|Open|Pending' },
@@ -72,7 +72,7 @@ export const STAFF = [
       { name: 'Amirhossein Mirzaei', url: 'https://www.linkedin.com/in/amirhosein-mirzaei-39a86232b', github: 'https://github.com/radical-1'  },
       { name: 'SeyedAhmad MousaviAval' , url: 'https://www.linkedin.com/in/seyedahmad-mousaviaval-454301413', github: 'https://github.com/seyedahmadmosaviawal' },
       { name: 'Amirhossein Mohammadzadeh', url: 'https://www.linkedin.com/in/ahmz1833', github: 'https://github.com/ahmz1833'  },
-      { name: 'Amirhossein Mousavifard', url: '', github: 'https://github.com/arkadashsiz'  },
+      { name: 'Amirhossein Moosavifard', url: '', github: 'https://github.com/arkadashsiz'  },
     ],
   },
   {
@@ -87,7 +87,7 @@ export const STAFF = [
 export const FAQS = [
   {
     q: 'What does NEDA stand for?',
-    a: 'NEDA stands for Newbie EDA — it is designed for students who are new to Electronic Design Automation and want a structured, hands-on introduction to the field.',
+    a: 'NEDA stands for Newbie EDA. It is designed for students who are new to Electronic Design Automation and want a structured, hands-on introduction to the field.',
   },
   {
     q: 'What is EDA?',
@@ -95,11 +95,15 @@ export const FAQS = [
   },
   {
     q: 'Do I need prior EDA experience?',
-    a: 'Not at all. NEDA is built for beginners. If you have taken the DSD course, you have everything you need to follow along and compete.',
+    a: 'Not at all. NEDA is built for beginners — no prior EDA experience is needed to follow along and compete.',
+  },
+  {
+    q: 'Do I need to have taken the DSD course?',
+    a: 'No, it is not mandatory. NEDA is mainly aimed at DSD students and the workshops are paced with that background in mind, so having taken the course helps, but anyone curious about EDA is welcome to join.',
   },
   {
     q: 'What tools do I need to install?',
-    a: 'Nothing is required. The workshops introduce various EDA tools along the way, but you are free to use them or not — plain Python is enough to tackle the competition problems.',
+    a: 'Nothing is required. The workshops introduce various EDA tools along the way, but you are free to use them or not. Plain Python is enough to tackle the competition problems.',
   },
   {
     q: 'How does the competition work?',
@@ -108,6 +112,10 @@ export const FAQS = [
   {
     q: 'Can I use an LLM or AI assistant?',
     a: 'Yes, LLMs are allowed. That said, scores are calculated relative to the maximum achieved score, so while an LLM can help you get started, it is unlikely to take you to the top on its own.',
+  },
+  {
+    q: 'Is NEDA free to join?',
+    a: 'Yes, NEDA is completely free. Workshops and the competition are open to anyone who wants to join, at no cost.',
   },
   {
     q: 'Can I join without a team?',
