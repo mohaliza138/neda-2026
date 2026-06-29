@@ -130,7 +130,7 @@
 
 .aus__link:hover,
 .aus__link:hover .aus__platform-icon {
-  color: #fff;
+  color: var(--text);
 }
 
 .aus__platform-icon {
