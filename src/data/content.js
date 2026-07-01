@@ -36,7 +36,23 @@ export const SCHEDULE = [
 export const WORKSHOPS = [
   {
     id: 1,
-    title: 'About NEDA',
+    title: 'Abstraction Models, HLS, Verification',
+    status: 'soon',
+    resources: [
+      // { icon: 'icon', label: 'label', url: '#', type: 'Download|Open|Pending' },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Logic Optimization',
+    status: 'soon',
+    resources: [
+      // { icon: 'icon', label: 'label', url: '#', type: 'Download|Open|Pending' },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Placement & Routing',
     status: 'soon',
     resources: [
       // { icon: 'icon', label: 'label', url: '#', type: 'Download|Open|Pending' },
@@ -46,12 +62,12 @@ export const WORKSHOPS = [
 
 // ── Updates / announcements ───────────────────────────────────────
 export const UPDATES = [
-  // {
-  //   id: 1,
-  //   time: 'Date · time',
-  //   text: 'text',
-  //   fresh: true,
-  // },
+  {
+    id: 1,
+    time: 'Jul 1 · 9:30pm',
+    text: 'NEDA portal will be available from tomorrow noon.',
+    fresh: true,
+  },
 ];
 
 // ── Hall of fame ──────────────────────────────────────────────────

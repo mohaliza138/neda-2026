@@ -10,7 +10,6 @@ export default function Updates() {
         <div className="upd__header">
           <div>
             <p className="section-eyebrow">Updates</p>
-            <p className="upd__hint">Mirrored from the event portal</p>
           </div>
           {EVENT.portalUrl && (
             <a href={EVENT.portalUrl} className="upd__portal-link" target="_blank" rel="noreferrer">
