@@ -7,7 +7,7 @@ export const EVENT = {
   description:
     'An online event for anyone taking their first steps in Electronic Design Automation — two days of workshops followed by a week-long competition.',
   date: 'Jul. 2-10 · 2026',
-  portalUrl: '',
+  portalUrl: 'https://neda-event.ir/portal/login',
   discordUrl: '',
   githubUrl: '',
 };
