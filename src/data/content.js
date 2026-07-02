@@ -36,26 +36,37 @@ export const SCHEDULE = [
 export const WORKSHOPS = [
   {
     id: 1,
-    title: 'Abstraction Models, HLS, Verification',
-    status: 'soon',
+    title: 'Abstraction Models, HLS, Verification (M. Alizadeh)',
+    status: 'available',
     resources: [
-      // { icon: 'icon', label: 'label', url: '#', type: 'Download|Open|Pending' },
+      { icon: '', label: 'Aparat', url: 'https://aparat.com/v/juj1n08', type: 'Watch' },
+      { icon: '', label: 'Sharif Drive', url: 'https://my.sharif.edu/s/nEA3z7gficGNxRe', type: 'Download' },
     ],
   },
   {
     id: 2,
-    title: 'Logic Optimization',
-    status: 'soon',
+    title: 'Logic Optimization (M. Alizadeh)',
+    status: 'available',
     resources: [
-      // { icon: 'icon', label: 'label', url: '#', type: 'Download|Open|Pending' },
+      { icon: '', label: 'Aparat', url: 'https://aparat.com/v/etqs5f9', type: 'Watch' },
+      { icon: '', label: 'Sharif Drive', url: 'https://my.sharif.edu/s/YTCeaCaxpr6Cat3', type: 'Download' },
     ],
   },
   {
     id: 3,
-    title: 'Placement & Routing',
-    status: 'soon',
+    title: 'Placement & Routing (M. Bahramian)',
+    status: 'available',
     resources: [
-      // { icon: 'icon', label: 'label', url: '#', type: 'Download|Open|Pending' },
+      { icon: '', label: 'Aparat', url: 'https://www.aparat.com/v/yli25r8', type: 'Watch' },
+      { icon: '', label: 'Sharif Drive', url: 'https://my.sharif.edu/s/CRkmNamyfpwgsTs', type: 'Download' },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Workshop slides',
+    status: 'available',
+    resources: [
+      { icon: '', label: 'Sharif Drive', url: 'https://my.sharif.edu/s/wNiKbwxm9rDZ7Hq', type: 'Download' },
     ],
   },
 ];
